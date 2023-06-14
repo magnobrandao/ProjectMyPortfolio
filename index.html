@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Magno Brandão</title>
-    <link rel="stylesheet" href="/ProjectMyPortfolio/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <!-- font-awesome -->
@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-primary ">
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-dark bg-primary ">
         <div class="container-lg">
             <a class="navbar-brand text-light fw-bold fs-4" href="#">Magno Brandão</a>
 
@@ -25,16 +26,38 @@
                 <ul class="dropdown-menu dropdown-menu-end ">
                     <li><a class="dropdown-item" href="#">Início</a></li>
                     <li><a class="dropdown-item" href="#">Sobre Mim</a></li>
-                    <li><a class="dropdown-item" href="#">Serviços</a></li>
                     <li><a class="dropdown-item" href="#">Projetos</a></li>
                     <li><a class="dropdown-item" href="#">Contato</a></li>
                 </ul>
             </div>
         </div>
-
-        </div>
     </nav>
+    <!--Navbar-->
 
+    <section class="home py-4" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="img/Foto linkedin-fotor-bg-remover-202306140264.png"
+                            alt="Foto de um homem branco com uma camisa polo azul sorrindo.">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 d-flex order-md-first">
+                    <div class="home-text ">
+                        <p class="text-muted mb-1">Olá, Eu Sou</p>
+                        <h1 class="text-primary text-uppercase fs-1 fw-bold">Magno Brandão</h1>
+                        <h2 class="fs-4">Desenvolvedor de Software</h2>
+                        <p class="mt-4 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam aliquam
+                            quisquam possimus,
+                            libero molestias officia laboriosam. Architecto ab voluptatum unde natus. Explicabo at
+                            dolores esse praesentium? Aspernatur eligendi quisquam pariatur?</p>
+                        <a href="#portfolio" class="btn btn-primary px-3 mt-3 ">Meus Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
