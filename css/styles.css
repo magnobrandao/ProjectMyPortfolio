@@ -2,3 +2,35 @@ img {
     width: 25rem;
     border-radius: 50%;
 }
+
+.home-padding {
+    padding-top: 80px;
+}
+
+.navbar-spacing {
+    padding-top: 10px;
+    /* Ajuste o valor conforme necessário */
+}
+
+.home-bottom-spacing {
+    padding-bottom: 60px;
+    /* Ajuste o valor conforme necessário */
+}
+
+.about-bottom-spacing {
+    margin-bottom: 50px;
+    /* Ajuste o valor conforme necessário */
+}
+
+@media (max-width: 810px) {
+    .navbar.fixed-top {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-center-mobile {
+        text-align: center;
+    }
+}
